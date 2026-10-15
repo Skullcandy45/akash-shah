@@ -1,0 +1,72 @@
+@import './styles/tokens.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    color: var(--color-cypress-950);
+    background-color: var(--color-alabaster-50);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+    line-height: 1.08;
+  }
+}
+
+@layer components {
+  /* Eyebrow Label with small bronze dot */
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-semibold tracking-eyebrow uppercase;
+  }
+
+  .eyebrow::before {
+    content: '';
+    @apply inline-block w-1.5 h-1.5 rounded-full bg-bronze-600 shrink-0;
+  }
+
+  .eyebrow-dark::before {
+    @apply bg-bronze-400;
+  }
+
+  /* Interactive Pill Styles */
+  .pill-button {
+    @apply inline-flex items-center justify-center font-medium transition duration-200 ease-emil focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2;
+  }
+
+  .pill-button-primary {
+    @apply pill-button bg-bronze-600 text-alabaster-50 hover:bg-[#864c31] active:scale-[0.98] shadow-sm;
+  }
+
+  .pill-button-secondary {
+    @apply pill-button bg-transparent border border-alabaster-200 text-cypress-950 hover:border-cypress-950 hover:bg-alabaster-100 active:scale-[0.98];
+  }
+
+  .pill-button-glass {
+    @apply pill-button bg-white/10 backdrop-blur-md border border-white/20 text-alabaster-50 hover:bg-white/20 active:scale-[0.98];
+  }
+
+  .pill-button-dark {
+    @apply pill-button bg-cypress-900 text-alabaster-50 hover:bg-cypress-800 active:scale-[0.98];
+  }
+
+  /* Card Surfaces */
+  .card-alabaster {
+    @apply bg-alabaster-50 border border-alabaster-200 rounded-2xl transition duration-200 ease-emil;
+  }
+
+  .card-soft {
+    @apply bg-alabaster-100 border border-alabaster-200 rounded-2xl transition duration-200 ease-emil;
+  }
+
+  .card-cypress {
+    @apply bg-cypress-900 text-alabaster-50 border border-cypress-800 rounded-2xl transition duration-200 ease-emil;
+  }
+}
