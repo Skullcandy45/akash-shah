@@ -1,6 +1,6 @@
 /* Font Imports: Fontshare Zodiak + Google Fonts / Fontshare Plus Jakarta Sans */
 @import url('https://api.fontshare.com/v2/css?f[]=zodiak@400,401,500,501,600,601,700,701&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,601;0,700;0,800;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap');
 
 :root {
   /* Color Tokens */

@@ -14,10 +14,24 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
-  h1, h2, h3, h4, .font-display {
+  h1, h2 {
     font-family: var(--font-display);
     letter-spacing: -0.02em;
-    line-height: 1.08;
+    line-height: 1.15;
+  }
+
+  h3, h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.015em;
+    line-height: 1.25;
+  }
+
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-sans {
+    font-family: var(--font-sans);
   }
 }
 
