@@ -52,7 +52,7 @@ export default function Footer() {
 
           {/* Column 2: Quick Links (2 cols on lg) */}
           <div className="lg:col-span-2">
-            <h4 className="font-display text-base font-semibold text-alabaster-50 mb-5 tracking-tight">
+            <h4 className="font-sans text-xs font-bold uppercase tracking-wider text-alabaster-100 mb-4">
               Practice
             </h4>
             <ul className="space-y-3 text-sm">
@@ -72,7 +72,7 @@ export default function Footer() {
 
           {/* Column 3: Clinical Focus (2 cols on lg) */}
           <div className="lg:col-span-2">
-            <h4 className="font-display text-base font-semibold text-alabaster-50 mb-5 tracking-tight">
+            <h4 className="font-sans text-xs font-bold uppercase tracking-wider text-alabaster-100 mb-4">
               Procedures
             </h4>
             <ul className="space-y-3 text-sm">
@@ -92,7 +92,7 @@ export default function Footer() {
 
           {/* Column 4: Contact & Emergency (3 cols on lg) */}
           <div className="lg:col-span-3">
-            <h4 className="font-display text-base font-semibold text-alabaster-50 mb-5 tracking-tight">
+            <h4 className="font-sans text-xs font-bold uppercase tracking-wider text-alabaster-100 mb-4">
               Chambers & Triage
             </h4>
 
@@ -103,7 +103,7 @@ export default function Footer() {
                 </span>
                 <a
                   href={`tel:${siteConfig.contact.phoneRaw}`}
-                  className="font-display text-lg font-bold text-alabaster-50 hover:text-bronze-400 block transition-colors"
+                  className="font-sans text-lg font-bold text-alabaster-50 hover:text-bronze-400 block transition-colors"
                 >
                   {siteConfig.contact.phone}
                 </a>

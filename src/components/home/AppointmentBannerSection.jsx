@@ -197,7 +197,7 @@ export default function AppointmentBannerSection() {
               <span className="text-[10px] font-bold uppercase tracking-eyebrow text-bronze-400 block mb-1">
                 PRIVATE CHAMBERS · BANDRA WEST
               </span>
-              <h3 className="font-display text-sm sm:text-base font-bold text-alabaster-50 mb-1">
+              <h3 className="font-sans text-sm sm:text-base font-bold text-alabaster-50 mb-1">
                 Suite 402, Horizon Enclave
               </h3>
               <p className="text-xs text-alabaster-100/80 leading-relaxed mb-3">

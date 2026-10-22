@@ -133,7 +133,7 @@ export default function StreamlinedServicesSection() {
                         <span className="text-[10px] font-bold uppercase tracking-wider text-bronze-600 block">
                           {proc.badge}
                         </span>
-                        <h3 className="font-display text-sm font-bold text-cypress-950 truncate">
+                        <h3 className="font-sans text-sm font-bold text-cypress-950 truncate">
                           {proc.title}
                         </h3>
                       </div>
@@ -153,7 +153,7 @@ export default function StreamlinedServicesSection() {
                   {/* Mobile Accordion Inline Body (Visible only on smaller screens) */}
                   {isSelected && (
                     <div className="lg:hidden mt-2 p-5 bg-alabaster-100 rounded-2xl border border-alabaster-200 animate-in fade-in-50 duration-200">
-                      <h4 className="font-display text-base font-bold text-cypress-950 mb-1">
+                      <h4 className="font-sans text-base font-bold text-cypress-950 mb-1">
                         {proc.title}
                       </h4>
                       <p className="text-xs font-semibold text-bronze-600 mb-3">

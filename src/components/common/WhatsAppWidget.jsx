@@ -50,7 +50,7 @@ export default function WhatsAppWidget() {
                 <span className="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-400 border-2 border-cypress-950 animate-pulse" />
               </div>
               <div>
-                <h4 className="font-display text-sm font-bold text-alabaster-50 tracking-tight leading-tight">
+                <h4 className="font-sans text-sm font-bold text-alabaster-50 tracking-tight leading-tight">
                   Clinical Coordinator
                 </h4>
                 <p className="text-[11px] text-emerald-400 font-medium flex items-center gap-1">

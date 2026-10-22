@@ -230,19 +230,19 @@ export default function PatientJourney() {
         {/* 4 Telemetry Quick Pillars */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-6 border-t border-alabaster-200">
           <div className="bg-alabaster-100 p-3 rounded-xl border border-alabaster-200">
-            <span className="font-display text-lg font-bold text-cypress-950 block">45 Mins</span>
+            <span className="font-sans text-lg font-bold text-cypress-950 block">45 Mins</span>
             <span className="text-[11px] text-slate-600">Dedicated Consult</span>
           </div>
           <div className="bg-alabaster-100 p-3 rounded-xl border border-alabaster-200">
-            <span className="font-display text-lg font-bold text-cypress-950 block">100%</span>
+            <span className="font-sans text-lg font-bold text-cypress-950 block">100%</span>
             <span className="text-[11px] text-slate-600">Tumor Board Audit</span>
           </div>
           <div className="bg-alabaster-100 p-3 rounded-xl border border-alabaster-200">
-            <span className="font-display text-lg font-bold text-cypress-950 block">24–48 Hrs</span>
+            <span className="font-sans text-lg font-bold text-cypress-950 block">24–48 Hrs</span>
             <span className="text-[11px] text-slate-600">Typical Discharge</span>
           </div>
           <div className="bg-alabaster-100 p-3 rounded-xl border border-alabaster-200">
-            <span className="font-display text-lg font-bold text-cypress-950 block">5 Years</span>
+            <span className="font-sans text-lg font-bold text-cypress-950 block">5 Years</span>
             <span className="text-[11px] text-slate-600">Active Surveillance</span>
           </div>
         </div>
@@ -489,7 +489,7 @@ export default function PatientJourney() {
                   className="w-full p-6 text-left flex items-center justify-between gap-4 focus:outline-none"
                   aria-expanded={isOpen}
                 >
-                  <span className="font-display text-base sm:text-lg font-bold text-cypress-950">
+                  <span className="font-sans text-base sm:text-lg font-semibold text-cypress-950">
                     {faq.q}
                   </span>
                   <div

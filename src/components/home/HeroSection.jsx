@@ -165,7 +165,7 @@ export default function HeroSection() {
                 <div className="w-10 h-10 rounded-full bg-alabaster-100 border border-alabaster-200 flex items-center justify-center text-bronze-600 mb-4">
                   <Clock size={20} weight="fill" />
                 </div>
-                <h4 className="font-display text-lg font-bold tracking-tight text-cypress-950 mb-1">
+                <h4 className="font-sans text-base font-bold tracking-tight text-cypress-950 mb-1">
                   Working Hours
                 </h4>
                 <p className="font-semibold text-sm text-cypress-900 mb-2">
@@ -189,7 +189,7 @@ export default function HeroSection() {
                 <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center text-alabaster-50 mb-4">
                   <PhoneCall size={20} weight="fill" />
                 </div>
-                <h4 className="font-display text-lg font-bold tracking-tight text-alabaster-50 mb-1">
+                <h4 className="font-sans text-base font-bold tracking-tight text-alabaster-50 mb-1">
                   Contact Us
                 </h4>
                 <p className="text-xs text-alabaster-100/90 leading-relaxed mb-4">
@@ -199,7 +199,7 @@ export default function HeroSection() {
               <div className="pt-3 border-t border-white/20">
                 <a
                   href={`tel:${siteConfig.contact.phoneRaw}`}
-                  className="font-display text-xl sm:text-2xl font-bold text-alabaster-50 block hover:underline tracking-tight"
+                  className="font-sans text-xl sm:text-2xl font-bold text-alabaster-50 block hover:underline tracking-tight"
                 >
                   {siteConfig.contact.phone}
                 </a>
@@ -215,7 +215,7 @@ export default function HeroSection() {
                 <div className="w-10 h-10 rounded-full bg-alabaster-100 border border-alabaster-200 flex items-center justify-center text-bronze-600 mb-4">
                   <MapPin size={20} weight="fill" />
                 </div>
-                <h4 className="font-display text-lg font-bold tracking-tight text-cypress-950 mb-1">
+                <h4 className="font-sans text-base font-bold tracking-tight text-cypress-950 mb-1">
                   Directions
                 </h4>
                 <p className="font-semibold text-xs text-cypress-900 mb-1">

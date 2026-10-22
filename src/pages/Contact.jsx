@@ -241,7 +241,7 @@ export default function Contact() {
               <span className="text-[10px] font-bold uppercase tracking-wider text-bronze-400 block mb-0.5">
                 PRIVATE CONSULTATION SUITE
               </span>
-              <h3 className="font-display text-base font-bold text-alabaster-50">
+              <h3 className="font-sans text-base font-bold text-alabaster-50">
                 Suite 402, Horizon Enclave · Hill Road
               </h3>
               <p className="text-xs text-alabaster-100/80 mt-1">
@@ -262,7 +262,7 @@ export default function Contact() {
               </span>
             </div>
 
-            <h3 className="font-display text-xl font-bold text-alabaster-50 mb-1.5">
+            <h3 className="font-sans text-xl font-bold text-alabaster-50 mb-1.5">
               WhatsApp Clinical Concierge
             </h3>
             <p className="text-xs text-alabaster-100/80 leading-relaxed mb-4">
@@ -283,7 +283,7 @@ export default function Contact() {
 
           {/* Quick Contact & Emergency Triage Box */}
           <div className="bg-white border border-alabaster-200 rounded-3xl p-6 sm:p-8 shadow-card space-y-4">
-            <h3 className="font-display text-lg font-bold text-cypress-950">
+            <h3 className="font-sans text-lg font-bold text-cypress-950">
               Chambers Telephone & Records Desk
             </h3>
             <div className="space-y-3 text-xs sm:text-sm text-slate-600">
@@ -494,7 +494,7 @@ export default function Contact() {
               <div className="w-10 h-10 rounded-xl bg-alabaster-100 flex items-center justify-center text-bronze-600 mb-4">
                 <AirplaneTakeoff size={20} weight="bold" />
               </div>
-              <h4 className="font-display text-base font-bold text-cypress-950 mb-1">
+              <h4 className="font-sans text-base font-bold text-cypress-950 mb-1">
                 From Mumbai Airport (T2)
               </h4>
               <p className="text-xs text-slate-600 leading-relaxed">
@@ -509,7 +509,7 @@ export default function Contact() {
               <div className="w-10 h-10 rounded-xl bg-alabaster-100 flex items-center justify-center text-bronze-600 mb-4">
                 <Car size={20} weight="bold" />
               </div>
-              <h4 className="font-display text-base font-bold text-cypress-950 mb-1">
+              <h4 className="font-sans text-base font-bold text-cypress-950 mb-1">
                 From South Mumbai
               </h4>
               <p className="text-xs text-slate-600 leading-relaxed">
@@ -524,7 +524,7 @@ export default function Contact() {
               <div className="w-10 h-10 rounded-xl bg-alabaster-100 flex items-center justify-center text-bronze-600 mb-4">
                 <Train size={20} weight="bold" />
               </div>
-              <h4 className="font-display text-base font-bold text-cypress-950 mb-1">
+              <h4 className="font-sans text-base font-bold text-cypress-950 mb-1">
                 Suburban Rail Access
               </h4>
               <p className="text-xs text-slate-600 leading-relaxed">

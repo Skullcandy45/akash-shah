@@ -62,7 +62,7 @@ export default function TreatmentMatrixSection() {
                     <IconComponent size={20} weight="bold" />
                   </div>
                   <div className="min-w-0">
-                    <h3 className="font-display text-sm font-bold text-cypress-950 group-hover:text-bronze-600 transition-colors truncate">
+                    <h3 className="font-sans text-sm font-bold text-cypress-950 group-hover:text-bronze-600 transition-colors truncate">
                       {item.title}
                     </h3>
                     <span className="text-[10px] font-semibold text-slate-600 uppercase tracking-wider block">

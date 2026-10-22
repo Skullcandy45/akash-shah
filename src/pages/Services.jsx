@@ -432,7 +432,7 @@ export default function Services() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
           <div className="bg-alabaster-50 p-5 rounded-2xl border border-alabaster-200">
             <CreditCard size={24} className="text-bronze-600 mb-2" weight="duotone" />
-            <h4 className="font-display text-sm font-bold text-cypress-950 mb-1">Fast-Track Pre-Auth</h4>
+            <h4 className="font-sans text-sm font-bold text-cypress-950 mb-1">Fast-Track Pre-Auth</h4>
             <p className="text-xs text-slate-600 leading-relaxed">
               Direct hospital insurance desk approval processed in 2–4 hours upon submitting diagnosis reports.
             </p>
@@ -440,7 +440,7 @@ export default function Services() {
 
           <div className="bg-alabaster-50 p-5 rounded-2xl border border-alabaster-200">
             <Hospital size={24} className="text-bronze-600 mb-2" weight="duotone" />
-            <h4 className="font-display text-sm font-bold text-cypress-950 mb-1">Zero Deposit Hassle</h4>
+            <h4 className="font-sans text-sm font-bold text-cypress-950 mb-1">Zero Deposit Hassle</h4>
             <p className="text-xs text-slate-600 leading-relaxed">
               Approved cashless claims proceed directly to OT scheduling with no cash outlay for console usage.
             </p>
@@ -448,7 +448,7 @@ export default function Services() {
 
           <div className="bg-alabaster-50 p-5 rounded-2xl border border-alabaster-200">
             <ShieldCheck size={24} className="text-bronze-600 mb-2" weight="duotone" />
-            <h4 className="font-display text-sm font-bold text-cypress-950 mb-1">IRDAI Robotic Mandate</h4>
+            <h4 className="font-sans text-sm font-bold text-cypress-950 mb-1">IRDAI Robotic Mandate</h4>
             <p className="text-xs text-slate-600 leading-relaxed">
               Compliant with the 2019 IRDAI mandate ensuring modern robotic interventions cannot be denied.
             </p>
@@ -456,7 +456,7 @@ export default function Services() {
 
           <div className="bg-alabaster-50 p-5 rounded-2xl border border-alabaster-200">
             <FileText size={24} className="text-bronze-600 mb-2" weight="duotone" />
-            <h4 className="font-display text-sm font-bold text-cypress-950 mb-1">Chambers TPA Liaison</h4>
+            <h4 className="font-sans text-sm font-bold text-cypress-950 mb-1">Chambers TPA Liaison</h4>
             <p className="text-xs text-slate-600 leading-relaxed">
               Dedicated clinical coordinator formats histology summaries and OT operative notes for instant claim clearance.
             </p>

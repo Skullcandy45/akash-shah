@@ -168,7 +168,7 @@ export default function Doctors() {
                       <Icon size={20} weight="bold" />
                     </div>
                   </div>
-                  <h3 className="font-display text-base font-bold text-cypress-950 mb-2">
+                  <h3 className="font-sans text-base font-bold text-cypress-950 mb-2">
                     {step.title}
                   </h3>
                   <p className="text-xs text-slate-600 leading-relaxed">

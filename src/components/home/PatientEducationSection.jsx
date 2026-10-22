@@ -42,7 +42,7 @@ export default function PatientEducationSection() {
                 >
                   <CheckCircle size={20} weight="fill" className="text-bronze-600 shrink-0 mt-0.5" />
                   <div>
-                    <h3 className="text-xs font-bold text-cypress-950 uppercase tracking-wide">
+                    <h3 className="font-sans text-xs font-bold text-cypress-950 uppercase tracking-wide">
                       {item.title}
                     </h3>
                     <p className="text-xs text-slate-600 mt-0.5 leading-relaxed">
