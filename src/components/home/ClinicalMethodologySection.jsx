@@ -44,10 +44,7 @@ export default function ClinicalMethodologySection() {
 
             {/* Zodiak Heading */}
             <h2 className="font-display text-3xl sm:text-4xl lg:text-[2.65rem] font-bold text-cypress-950 leading-tight mb-5">
-              {clinicalMethodology.title}{' '}
-              <span className="italic font-normal text-bronze-600">
-                {clinicalMethodology.titleAccent}
-              </span>
+              {clinicalMethodology.title} {clinicalMethodology.titleAccent}
             </h2>
 
             {/* Editorial practice philosophy copy */}

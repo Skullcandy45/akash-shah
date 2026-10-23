@@ -52,10 +52,10 @@ export default function PatientJourneySection() {
                   </div>
 
                   {/* Title & Subtitle */}
-                  <h3 className="font-display text-lg font-bold text-cypress-950 tracking-tight mb-1">
+                  <h3 className="font-sans text-base font-bold text-cypress-950 tracking-tight mb-1">
                     {item.title}
                   </h3>
-                  <span className="text-xs font-semibold text-bronze-600 block mb-3">
+                  <span className="text-xs font-medium text-slate-600 block mb-3">
                     {item.subtitle}
                   </span>
 

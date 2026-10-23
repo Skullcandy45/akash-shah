@@ -160,7 +160,7 @@ export default function Services() {
           <span>SURGICAL PROCEDURES & SPECIALTIES</span>
         </div>
         <h1 className="font-display text-4xl sm:text-5xl font-bold text-cypress-950 tracking-tight leading-tight mb-4">
-          Robotic Precision & <span className="italic font-normal text-bronze-600">Organ Preservation.</span>
+          Robotic Precision & Organ Preservation.
         </h1>
         <p className="text-base text-slate-600 leading-relaxed">
           Comprehensive surgical management of genitourinary cancers combining 3D high-magnification
@@ -307,7 +307,7 @@ export default function Services() {
                   <h2 className="font-display text-2xl sm:text-3xl font-bold text-cypress-950 tracking-tight mb-1">
                     {proc.title}
                   </h2>
-                  <p className="text-xs sm:text-sm font-semibold text-bronze-600 mb-4">
+                  <p className="text-xs sm:text-sm font-medium text-slate-600 mb-4">
                     {proc.subhead}
                   </p>
 

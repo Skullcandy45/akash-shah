@@ -45,7 +45,7 @@ export default function AppointmentBannerSection() {
 
               {/* Zodiak Heading */}
               <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-alabaster-50 tracking-tight leading-tight mb-4">
-                Schedule Your Visit, <span className="italic font-normal text-bronze-400">Today.</span>
+                Schedule Your Visit, Today.
               </h2>
 
               {/* Intro */}

@@ -38,8 +38,7 @@ export default function HeroSection() {
 
             {/* Zodiak Headline */}
             <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-cypress-950 leading-[1.12] mb-6">
-              Clarity & Precision You Can{' '}
-              <span className="italic font-normal text-bronze-600">Feel Confident In.</span>
+              Clarity & Precision You Can Feel Confident In.
             </h1>
 
             {/* Subtitle */}

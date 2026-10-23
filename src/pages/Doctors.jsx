@@ -63,7 +63,7 @@ export default function Doctors() {
           <span>MULTIDISCIPLINARY TUMOR BOARD</span>
         </div>
         <h1 className="font-display text-4xl sm:text-5xl font-bold text-cypress-950 tracking-tight leading-tight mb-4">
-          Specialist-Led <span className="italic font-normal text-bronze-600">Care Team.</span>
+          Specialist-Led Care Team.
         </h1>
         <p className="text-base text-slate-600 leading-relaxed">
           Modern urological oncology demands coordinated subspecialty expertise. Our surgical leadership
@@ -102,7 +102,7 @@ export default function Doctors() {
                 <h2 className="font-display text-2xl font-bold text-cypress-950 tracking-tight mb-1 group-hover:text-bronze-600 transition-colors">
                   {member.name}
                 </h2>
-                <p className="text-xs font-semibold text-bronze-600 uppercase tracking-wide mb-3">
+                <p className="text-xs font-semibold text-slate-600 uppercase tracking-wide mb-3">
                   {member.role}
                 </p>
 

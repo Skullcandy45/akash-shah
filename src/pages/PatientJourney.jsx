@@ -219,7 +219,7 @@ export default function PatientJourney() {
           <span>COMPREHENSIVE ONCOLOGY PATHWAY</span>
         </div>
         <h1 className="font-display text-4xl sm:text-5xl font-bold text-cypress-950 tracking-tight leading-tight mb-4">
-          The Patient <span className="italic font-normal text-bronze-600">Journey.</span>
+          The Patient Journey.
         </h1>
         <p className="text-base text-slate-600 leading-relaxed mb-6">
           Facing a suspected or confirmed tumor can be overwhelming. We believe clarity and transparency
@@ -354,7 +354,7 @@ export default function PatientJourney() {
                     <h3 className="font-display text-2xl sm:text-3xl font-bold text-cypress-950 tracking-tight mb-1">
                       {phase.title}
                     </h3>
-                    <p className="text-xs sm:text-sm font-semibold text-bronze-600 mb-4">
+                    <p className="text-xs sm:text-sm font-medium text-slate-600 mb-4">
                       {phase.subhead}
                     </p>
 

@@ -38,7 +38,7 @@ export default function TreatmentMatrixSection() {
             <span>SERVICES & TREATMENTS</span>
           </div>
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-cypress-950 tracking-tight leading-tight mb-4">
-            Advanced Procedures, <span className="italic font-normal text-bronze-600">Personalized Plans.</span>
+            Advanced Procedures, Personalized Plans.
           </h2>
           <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
             From precision robotic organ preservation to structured active surveillance, each

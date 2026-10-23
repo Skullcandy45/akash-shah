@@ -55,7 +55,7 @@ export default function StreamlinedServicesSection() {
               <span>SPECIALIZED PROCEDURES & ONCOLOGY</span>
             </div>
             <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-cypress-950 tracking-tight leading-tight">
-              Advanced Procedures, <span className="italic font-normal text-bronze-600">Personalized Plans.</span>
+              Advanced Procedures, Personalized Plans.
             </h2>
           </div>
 
@@ -156,7 +156,7 @@ export default function StreamlinedServicesSection() {
                       <h4 className="font-sans text-base font-bold text-cypress-950 mb-1">
                         {proc.title}
                       </h4>
-                      <p className="text-xs font-semibold text-bronze-600 mb-3">
+                      <p className="text-xs font-medium text-slate-600 mb-3">
                         {proc.subhead}
                       </p>
                       <p className="text-xs text-slate-600 leading-relaxed mb-4">
@@ -206,7 +206,7 @@ export default function StreamlinedServicesSection() {
                     <h3 className="font-display text-2xl sm:text-3xl font-bold text-cypress-950 tracking-tight mb-2">
                       {currentProcedure.title}
                     </h3>
-                    <p className="text-sm font-semibold text-bronze-600">
+                    <p className="text-sm font-medium text-slate-600">
                       {currentProcedure.subhead}
                     </p>
                   </div>

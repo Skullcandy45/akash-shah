@@ -116,7 +116,7 @@ export default function About() {
           </div>
 
           <h1 className="font-display text-4xl sm:text-5xl font-bold text-cypress-950 tracking-tight leading-tight mb-6">
-            Pioneering Precision in <span className="italic font-normal text-bronze-600">Robotic Uro-Oncology.</span>
+            Pioneering Precision in Robotic Uro-Oncology.
           </h1>
 
           <p className="text-base text-slate-600 leading-relaxed mb-4">

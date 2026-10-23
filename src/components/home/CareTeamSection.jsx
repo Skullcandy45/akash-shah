@@ -17,7 +17,7 @@ export default function CareTeamSection() {
               <span>OUR SPECIALISTS</span>
             </div>
             <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-cypress-950 tracking-tight leading-tight">
-              Specialist-Led <span className="italic font-normal text-bronze-600">Care Team.</span>
+              Specialist-Led Care Team.
             </h2>
           </div>
 
@@ -63,7 +63,7 @@ export default function CareTeamSection() {
                   <h3 className="font-display text-xl font-bold text-cypress-950 tracking-tight mb-1 group-hover:text-bronze-600 transition-colors">
                     {member.name}
                   </h3>
-                  <p className="text-xs font-semibold text-bronze-600 uppercase tracking-wide mb-3">
+                  <p className="text-xs font-semibold text-slate-600 uppercase tracking-wide mb-3">
                     {member.role}
                   </p>
 

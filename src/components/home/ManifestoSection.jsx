@@ -28,7 +28,7 @@ export default function ManifestoSection() {
             {/* Gray paragraph with highlighted final sentence in bronze-600 */}
             <p className="text-base text-slate-600 leading-relaxed mb-8">
               {manifesto.leadParagraph}{' '}
-              <span className="font-semibold text-bronze-600">
+              <span className="font-semibold text-cypress-950">
                 {manifesto.highlightSentence}
               </span>
             </p>

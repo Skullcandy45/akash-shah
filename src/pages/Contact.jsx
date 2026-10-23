@@ -93,7 +93,7 @@ export default function Contact() {
           <span>COORDINATION & LOCATION</span>
         </div>
         <h1 className="font-display text-4xl sm:text-5xl font-bold text-cypress-950 tracking-tight leading-tight mb-4">
-          Contact the <span className="italic font-normal text-bronze-600">Chambers.</span>
+          Contact the Chambers.
         </h1>
         <p className="text-base text-slate-600 leading-relaxed">
           Centrally located on Hill Road in Bandra West, Mumbai. Conveniently positioned for local,

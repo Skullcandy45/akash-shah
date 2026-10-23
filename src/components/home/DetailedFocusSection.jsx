@@ -18,7 +18,7 @@ export default function DetailedFocusSection() {
             </div>
 
             <h2 className="font-display text-3xl sm:text-4xl font-bold text-cypress-950 leading-tight mb-5">
-              Subspecialized Care, <span className="italic font-normal text-bronze-600">Dedicated Expertise.</span>
+              Subspecialized Care, Dedicated Expertise.
             </h2>
 
             <p className="text-sm text-slate-600 leading-relaxed mb-6">
