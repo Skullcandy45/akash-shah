@@ -279,7 +279,7 @@ function HeroScene() {
     }
 
     // --- Render loop ---
-    const clock = new THREE.Clock();
+    const startTime = performance.now();
     let raf = 0;
     let inView = true;
 
@@ -302,7 +302,7 @@ function HeroScene() {
 
     const tick = () => {
       raf = requestAnimationFrame(tick);
-      renderFrame(clock.getElapsedTime());
+      renderFrame((performance.now() - startTime) * 0.001);
     };
     const start = () => {
       if (!raf && !reduceMotion) tick();
